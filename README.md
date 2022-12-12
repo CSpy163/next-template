@@ -1,1 +1,1 @@
-> next.js 13 + tailwind CSS 模板项目
+> next.js 13.0.6 / tailwind CSS 3.2.4 / Antd 5.0.6 模板项目
