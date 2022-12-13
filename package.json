@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "tdev": "concurrently \"next dev\" \"tailwindcss --input input.css --output output.css --watch\"",
-    "tbuild": "tailwindcss input.css --output output.css && next build"
+    "tdev": "concurrently \"next dev\" \"tailwindcss --input ./styles/globals.css --output ./styles/output.css --watch\"",
+    "tbuild": "tailwindcss ./styles/globals.css --output ./styles/output.css && next build"
   },
   "dependencies": {
     "@types/node": "18.11.13",
